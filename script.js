@@ -30,7 +30,7 @@ var available_models = {
         "name": "oman-anpr",
         "version": 1,
         "video": "",
-        "confidence": 0.4,
+        "confidence": 0.2,
         "imageGrid": [
             "https://ag-spots-2018.o.auroraobjects.eu/2018/01/30/bentley-continental-gt-2012-c927330012018202839_1.jpg",
             "https://ag-spots-2017.o.auroraobjects.eu/2017/11/11/lamborghini-aventador-lp750-4-superveloce-roadster-c417211112017194237_1.jpg",

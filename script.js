@@ -26,6 +26,19 @@ var color_choices = [
 ];
 
 var available_models = {
+      "oman-anpr": {
+        "name": "oman-anpr",
+        "version": 1,
+        "video": "",
+        "confidence": 0.5,
+        "imageGrid": [
+            "https://ag-spots-2018.o.auroraobjects.eu/2018/01/30/bentley-continental-gt-2012-c927330012018202839_1.jpg",
+            "https://ag-spots-2017.o.auroraobjects.eu/2017/11/11/lamborghini-aventador-lp750-4-superveloce-roadster-c417211112017194237_1.jpg",
+            "https://ag-spots-2017.o.auroraobjects.eu/2017/11/11/porsche-991-turbo-s-c406411112017191956_1.jpg",
+            "https://ag-spots-2017.o.auroraobjects.eu/2017/01/06/porsche-958-cayenne-gts-c258606012017154536_1.jpg"
+        ],
+        "model": null
+    },
     "microsoft-coco": {
         "name": "Microsoft COCO",
         "version": 9,

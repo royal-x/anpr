@@ -39,19 +39,19 @@ var available_models = {
         ],
         "model": null
     },
-    "microsoft-coco": {
-        "name": "Microsoft COCO",
-        "version": 9,
-        "video": "",
-        "confidence": 0.6,
-        "imageGrid": [
-            "https://media.roboflow.com/homepage/000000000544_jpg.rf.f588881eb2c2829187797d304e3a941d.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675241561128",
-            "https://media.roboflow.com/homepage/000000000064_jpg.rf.654457cc709530d859531d38bb990ec8.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675241561271",
-            "https://media.roboflow.com/homepage/000000000321_jpg.rf.c38501b6894584ac21c859cd4390e75e.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675241561164",
-            "https://media.roboflow.com/homepage/000000000250_jpg.rf.47b3fb8b6ed29e369cc361720b5f21f5.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675241560704"
-        ],
-        "model": null
-    },
+//     "microsoft-coco": {
+//         "name": "Microsoft COCO",
+//         "version": 9,
+//         "video": "",
+//         "confidence": 0.6,
+//         "imageGrid": [
+//             "https://media.roboflow.com/homepage/000000000544_jpg.rf.f588881eb2c2829187797d304e3a941d.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675241561128",
+//             "https://media.roboflow.com/homepage/000000000064_jpg.rf.654457cc709530d859531d38bb990ec8.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675241561271",
+//             "https://media.roboflow.com/homepage/000000000321_jpg.rf.c38501b6894584ac21c859cd4390e75e.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675241561164",
+//             "https://media.roboflow.com/homepage/000000000250_jpg.rf.47b3fb8b6ed29e369cc361720b5f21f5.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675241560704"
+//         ],
+//         "model": null
+//     },
     "construction-site-safety": {
         "name": "Worksite Safety",
         "version": 27,
@@ -103,12 +103,12 @@ for (var item in available_models) {
     model_select.add(option);
 }
 
-var current_model_name = "microsoft-coco";
+var current_model_name = "oman-anpr";
 const API_KEY = "rf_UNNGyDofvbX0k1Va1NEGwbMfxh02";
 const DETECT_API_KEY = "vEwNFrD08MO8DEQaWYcO";
 const CAMERA_ACCESS_URL = "https://uploads-ssl.webflow.com/5f6bc60e665f54545a1e52a5/63d40cd1de273045d359cf9a_camera-access2.png";
 const LOADING_URL = "https://uploads-ssl.webflow.com/5f6bc60e665f54545a1e52a5/63d40cd2210b56e0e33593c7_loading-camera2.gif";
-var current_model_version = 9;
+var current_model_version = 1;
 var webcamLoop = false;
 
 // when user scrolls past #model-select, stop webcam
